@@ -25,4 +25,6 @@ def crete_app():
 
 if __name__ == '__main__':
     app = crete_app()
+    print('开始')
     app.run(debug=True,host='0.0.0.0')
+
